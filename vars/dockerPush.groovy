@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
 
-def call(String imageName) {
-        sh "docker push $imageName"
+def call() {
+        sh 'docker push chinmayapradhan/java-maven-app:2.0'
 }
